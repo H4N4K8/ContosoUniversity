@@ -1,0 +1,11 @@
+@ContosoUniversity_HostAddress = http://localhost:5233
+
+GET {{ContosoUniversity_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{ContosoUniversity_HostAddress}}/todos/1
+Accept: application/json
+
+###
